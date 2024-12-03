@@ -1,6 +1,10 @@
+import Canvas from "./Components/Canvas"
+
 function App() {
   return (
-    <div>App</div>
+    <div className="w-full min-h-screen bg-black text-white">
+      <Canvas />
+    </div>
   )
 }
 
